@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+
+
+*{
+    margin: 0%;
+}
+
+:root{
+    --fonte-destaque:"Jersey 10";
+    --fonte-normal: Arial;
+    --color01:black;
+    --color02:#282828;
+    --color03:#515151;
+    --color04:#797979;
+    --color05:#a1a1a1;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--color03),var(--color05));
+    
+}
+header h1{
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2.4em;
+    margin-bottom: 40px;
+    color: #ffffff;
+  
+}
+
